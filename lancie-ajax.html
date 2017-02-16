@@ -1,0 +1,34 @@
+<link rel="import" href="../polymer/polymer.html">
+
+<!--
+`lancie-ajax`
+iron-ajax element specified for the lancie frontends
+
+@demo demo/index.html 
+-->
+
+<dom-module id="lancie-ajax">
+  <template>
+    <style>
+      :host {
+        display: block;
+      }
+    </style>
+    <h2>Hello [[prop1]]</h2>
+  </template>
+
+  <script>
+    Polymer({
+
+      is: 'lancie-ajax',
+
+      properties: {
+        prop1: {
+          type: String,
+          value: 'lancie-ajax',
+        },
+      },
+
+    });
+  </script>
+</dom-module>
