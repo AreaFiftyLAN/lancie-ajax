@@ -1,6 +1,6 @@
 {
   "name": "lancie-ajax",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "description": "iron-ajax element specified for the lancie frontends",
   "main": "lancie-ajax.html",
   "dependencies": {

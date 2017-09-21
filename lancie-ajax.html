@@ -136,6 +136,11 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         },
 
         createHeader: function(token, contenttype) {
+          if (this.absoluteurl !== '') {
+            return {
+              'Content-Type': contenttype,
+            };
+          }
           return {
             'Content-Type': contenttype,
             'X-Auth-Token': token,
